@@ -74,22 +74,28 @@ def process_pdfs(uploaded_files):
 
                 # Extraer ítems y precios utilizando un patrón más flexible
                 # Patrón mejorado para capturar ítems con múltiples palabras y precios
-                item_pattern = r"([A-Z0-9\s/]+)\s+(\d+,\d{2})"
+                item_pattern = r"(\d+)\s+([A-ZÀ-ÿ0-9\s/.%-]+?)\s+(\d+,\d{2})\s*(\d+,\d{2})?"
 
                 # Filtrar líneas no relacionadas con productos
                 patron_no_producto = re.compile(r"(TARJETA BANCARIA|TOTAL|SUBTOTAL|CREDITO)", re.IGNORECASE)
+                patron_iva = r"([0-9]+%)\s+(\d+,\d{2})\s*(\d+,\d{2})"
                 
                 # Filtrar líneas no relacionadas con productos
                 filtered_lines = [line for line in text.splitlines() if not patron_no_producto.search(line)]
-
+                
                 # Extraer ítems de las líneas filtradas
-                items = re.findall(item_pattern, '\n'.join(filtered_lines))
+                itemsIVA = re.findall(item_pattern, '\n'.join(filtered_lines))
+                items = [match for match in itemsIVA if not re.search(patron_iva, " ".join(match))]
 
-                for item, precio in items:
-                    item = item.strip()
-                    precio = round(float(precio.replace(",", ".")), 2)
+                for match in items:
+                    cantidad = int(match[0])
+                    item = match[1].strip()
+                    precio_unitario = match[2]
+                    # precio_total = match[3] if match[3] else precio_unitario  # Si no hay precio total, es igual al unitario
+                    precio = round(float(precio_unitario.replace(",", ".")), 2)
                     categoria = categorize_item(item)
-                    data.append([fecha, identificativo, location, item, categoria, precio])
+                    for _ in range(cantidad):
+                        data.append([fecha, identificativo, location, item, categoria, precio])
             else:
                 print(f"No se pudo extraer texto del archivo: {uploaded_file.name}")
 
