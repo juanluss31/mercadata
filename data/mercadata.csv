@@ -1,81 +1,427 @@
-fecha,identificativo de ticket,item,categoría,precio
-06/04/2024 12:01,2654-021-154338,ALMENDRA NATURAL,frutos secos,2.05
-06/04/2024 12:01,2654-021-154338,CHICLES MENTA FUERTE,snacks,1.0
-06/04/2024 12:01,2654-021-154338,SARTA DULCE,otros,2.49
-10/02/2024 18:13,4393-010-708801,HUMMUS CLASICO,platos preparados,1.05
-10/02/2024 18:13,4393-010-708801,SALSA DE SOJA SALADA,bebidas y caldos,1.45
-10/02/2024 18:13,4393-010-708801,CEREAL RELL AVELLANA,otros,2.15
-10/02/2024 18:13,4393-010-708801,PATATAS KETCHUP,snacks,1.15
-10/02/2024 18:13,4393-010-708801,BROTES TIERNOS,verduras y legumbres,1.15
-10/02/2024 18:13,4393-010-708801,ANACARDO NATURAL,frutos secos,2.3
-10/02/2024 18:13,4393-010-708801,NUEZ NATURAL,frutos secos,2.0
-10/02/2024 18:13,4393-010-708801,TOMATE CANARIO,fruta,0.52
-17/02/2024 20:06,4393-013-537371,PAN VIENA REDONDO,panadería,0.3
-17/02/2024 20:06,4393-013-537371,ANACARDO NATURAL,frutos secos,2.3
-17/02/2024 20:06,4393-013-537371,BROTES TIERNOS,verduras y legumbres,1.15
-17/02/2024 20:06,4393-013-537371,CEREAL RELL AVELLANA,otros,2.15
-17/02/2024 20:06,4393-013-537371,MIX FRUTOS ROJOS,otros,1.54
-17/02/2024 20:06,4393-013-537371,NUEZ NATURAL,frutos secos,2.0
-17/02/2024 20:06,4393-013-537371,PATATAS KETCHUP,snacks,1.15
-17/02/2024 20:06,4393-013-537371,PIMIENTO TRICO,otros,2.17
-17/02/2024 20:06,4393-013-537371,QUESO CHEDDAR,lácteos,3.0
-17/02/2024 20:06,4393-013-537371,TOMATE PERA TARRINA,fruta,2.16
-27/03/2024 21:11,2654-027-487161,PATATAS CHURRERIA,snacks,1.0
-27/03/2024 21:11,2654-027-487161,LEVADURA FRESCA,otros,0.45
-27/03/2024 21:11,2654-027-487161,AVENA CRUNCHY,despensa,1.9
-27/03/2024 21:11,2654-027-487161,REBUENAS,otros,1.2
-27/03/2024 21:11,2654-027-487161,COCKTAIL MEZCLA,otros,1.6
-27/03/2024 21:11,2654-027-487161,NACHOS TEX MEX,snacks,0.95
-27/03/2024 21:11,2654-027-487161,HUMMUS PIMIENTO,platos preparados,1.45
-27/03/2024 21:11,2654-027-487161,PERA ROCHA,fruta,0.84
-06/04/2024 12:01,2654-021-154338,ALMENDRA NATURAL,frutos secos,2.05
-06/04/2024 12:01,2654-021-154338,CHICLES MENTA FUERTE,snacks,1.0
-06/04/2024 12:01,2654-021-154338,SARTA DULCE,otros,2.49
-29/04/2024 18:58,2654-020-064455,NATILLAS PREPARAR,otros,1.4
-29/04/2024 18:58,2654-020-064455,AZUCAR,otros,1.45
-29/04/2024 18:58,2654-020-064455,CHOCO BLANCO,otros,0.75
-29/04/2024 18:58,2654-020-064455,LECHE SEMI,lácteos,0.83
-29/04/2024 18:58,2654-020-064455,NATA MONTAR,lácteos,1.95
-29/04/2024 18:58,2654-020-064455,SABOR,condimentos y salsas,1.95
-29/04/2024 18:58,2654-020-064455,SABOR,condimentos y salsas,1.95
-30/04/2024 19:44,2654-023-470269,QUESO RALLADO PIZZA,lácteos,1.54
-30/04/2024 19:44,2654-023-470269,CINTAS DE BACON,otros,2.1
-30/04/2024 19:44,2654-023-470269,NACHOS,snacks,0.9
-30/04/2024 19:44,2654-023-470269,HUMMUS CLASICO,platos preparados,1.1
-30/04/2024 19:44,2654-023-470269,PATATAS SERRANO,snacks,1.15
-30/04/2024 19:44,2654-023-470269,ENSALADILLA RUSA,platos preparados,3.0
-30/04/2024 19:44,2654-023-470269,BASE PIZZA FAMILIAR,otros,1.8
-11/05/2024 11:51,2654-027-506515,HUEVOS FRESCOS,otros,3.8
-11/05/2024 11:51,2654-027-506515,PIMIENTO TRICO,otros,1.93
-11/05/2024 11:51,2654-027-506515,TOMATE TRITURADO,fruta,0.98
-11/05/2024 11:51,2654-027-506515,AZUCAR,otros,1.45
-11/05/2024 11:51,2654-027-506515,MEZCLA DE SEMILLAS,despensa,1.4
-11/05/2024 11:51,2654-027-506515,MACARRON,otros,1.3
-11/05/2024 11:51,2654-027-506515,ZANAHORIA BOLSA,verduras y legumbres,1.09
-11/05/2024 11:51,2654-027-506515,QUESO CHEDDAR,lácteos,3.0
-11/05/2024 11:51,2654-027-506515,BANANA,fruta,1.01
-11/05/2024 11:51,2654-027-506515,CALABACIN VERDE,otros,0.81
-01/06/2024 21:00,2654-022-477178,BARRA DE PAN,panadería,0.48
-01/06/2024 21:00,2654-022-477178,ARROZ REDONDO,despensa,1.27
-01/06/2024 21:00,2654-022-477178,BARRA RUSTICA,otros,0.7
-01/06/2024 21:00,2654-022-477178,PATATA QUESO CURADO,otros,1.2
-01/06/2024 21:00,2654-022-477178,CALDO POLLO,otros,0.8
-28/06/2024 14:54,2654-027-529584,BARRA DE PAN,panadería,0.48
-28/06/2024 21:19,2654-020-072738,LECHE SEMI,lácteos,0.83
-28/06/2024 21:19,2654-020-072738,ANACARDO NATURAL,frutos secos,2.3
-28/06/2024 21:19,2654-020-072738,CROQUETA COCIDO,panadería,2.1
-28/06/2024 21:19,2654-020-072738,PATATAS LISAS,snacks,1.05
-28/06/2024 21:19,2654-020-072738,MIX FRUTOS ROJOS,otros,1.5
-28/06/2024 21:19,2654-020-072738,NECTARINA BANDEJA,fruta,2.07
-28/06/2024 21:19,2654-020-072738,TORTILLAS MEXICANAS,panadería,1.3
-28/06/2024 21:19,2654-020-072738,MAIZ,otros,1.2
-28/06/2024 21:19,2654-020-072738,PREPARADO ANDALUZ,platos preparados,2.59
-28/06/2024 21:19,2654-020-072738,QUESO CHEDDAR,lácteos,2.95
-28/06/2024 21:19,2654-020-072738,CALDO POLLO,otros,0.8
-27/04/2024 20:14,2654-020-064211,TOMATE PERA TARRINA,fruta,2.21
-27/04/2024 20:14,2654-020-064211,CHAPATA CRISTAL,panadería,0.35
-27/04/2024 20:14,2654-020-064211,PATATAS LISAS,snacks,1.0
-27/04/2024 20:14,2654-020-064211,TOMATE TRITURADO,fruta,0.98
-27/04/2024 20:14,2654-020-064211,JAMONCITOS DE POLLO,carne,3.1
-27/04/2024 20:14,2654-020-064211,HUMMUS CLASICO,platos preparados,1.1
-27/04/2024 20:14,2654-020-064211,PERA ROCHA,fruta,0.67
+fecha,identificativo de ticket,ubicación,item,categoría,precio,url
+15/12/2023 13:13,3112-013-378825,C/ TETUÁN S/N 23700 LINARES,MORTADELA ACEITUNAS,Charcutería y quesos,1.29,https://tienda.mercadona.es/product/59335/mortadela-con-aceitunas-hacendado-lonchas-paquete
+15/12/2023 13:13,3112-013-378825,C/ TETUÁN S/N 23700 LINARES,SALCHICHAS PACK-4,Charcutería y quesos,2.25,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+15/12/2023 13:13,3112-013-378825,C/ TETUÁN S/N 23700 LINARES,Q RALLADO EMMENTAL,otros,1.63,URL no encontrada
+15/12/2023 13:13,3112-013-378825,C/ TETUÁN S/N 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+15/12/2023 13:13,3112-013-378825,C/ TETUÁN S/N 23700 LINARES,BARRA DE PAN,Panadería y pastelería,0.48,https://tienda.mercadona.es/product/82322/pan-molde-blanco-sin-corteza-hacendado-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,ROLLO COCINA JUMBO,Limpieza y hogar,3.35,https://tienda.mercadona.es/product/49619/papel-hogar-compacto-absorbente-bosque-verde-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,ROLLO COCINA JUMBO,Limpieza y hogar,3.35,https://tienda.mercadona.es/product/49619/papel-hogar-compacto-absorbente-bosque-verde-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,EMPANADILLAS ATUN,Congelados,1.9,https://tienda.mercadona.es/product/63407/empanadillas-atun-hacendado-ultracongeladas-caja
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,HIELO CUBITO 2KG,Congelados,0.85,https://tienda.mercadona.es/product/64126/cubos-hielo-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,VELA VAINILLA,Limpieza y hogar,1.85,https://tienda.mercadona.es/product/72675/vela-perfumada-vainilla-bosque-verde-vaso-cristal-caja
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,COCKTAIL NATURAL,Aperitivos,2.5,https://tienda.mercadona.es/product/86809/cocktail-natural-hacendado-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,COCKTAIL RUMBA,Aperitivos,1.6,https://tienda.mercadona.es/product/80450/cocktail-rumba-hacendado-compuesto-cacahuetes-maiz-frito-pipas-girasol-pipas-calabaza-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,RELLENO KEBAB POLLO,Congelados,3.25,https://tienda.mercadona.es/product/13778/relleno-kebab-con-carne-pollo-asado-hacendado-ultracongelado-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,PISTACHO TOSTADO SAL,Aperitivos,3.35,https://tienda.mercadona.es/product/86202/pistacho-tostado-hacendado-con-sal-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,PIPAS BARBACOA,Aperitivos,1.35,https://tienda.mercadona.es/product/34043/pipas-girasol-barbacoa-hacendado-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,NUEZ NATURAL,Aperitivos,2.15,https://tienda.mercadona.es/product/34024/nuez-natural-hacendado-pelada-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,MORRO APERITIVO,otros,1.65,URL no encontrada
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,CACAHUETE TOST 0% S,Fruta y verdura,1.25,https://tienda.mercadona.es/product/3527/calabaza-cacahuete-cortada-trozos-bandeja
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,FIDEO CABELLO,"Arroz, legumbres y pasta",0.82,https://tienda.mercadona.es/product/13577/fideo-cabello-angel-hacendado-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,PIPA GIGANTE AGUASAL,Aperitivos,1.2,https://tienda.mercadona.es/product/34078/pipas-girasol-tostadas-hacendado-gigante-aguasal-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,HUESITOS PACK-10,"Azúcar, caramelos y chocolate",2.0,https://tienda.mercadona.es/product/12526/barritas-barquillo-huesitos-banadas-chocolate-con-leche-valor-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,PILA ALCALINA LR03,Limpieza y hogar,1.6,https://tienda.mercadona.es/product/22302/pila-alcalina-aa-lr6-bosque-verde-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,VELA TALCO,Limpieza y hogar,1.85,https://tienda.mercadona.es/product/15804/vela-perfumada-talco-bosque-verde-vaso-cristal-caja
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,ROSCA JAMÓN Y QUESO,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,CABECERO LOMO 4 PACK,Charcutería y quesos,2.3,https://tienda.mercadona.es/product/59076/cabecero-lomo-hacendado-lonchas-pack-4
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,GRIEGO AZUCAR CAÑA,Postres y yogures,1.65,https://tienda.mercadona.es/product/52441/yogur-griego-natural-hacendado-con-azucar-cana-pack-6
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,SETA BANDEJA,Fruta y verdura,1.84,https://tienda.mercadona.es/product/69519/champinon-laminado-limpio-bandeja
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,SALMÓN AHUMADO,Marisco y pescado,4.13,https://tienda.mercadona.es/product/53444/salmon-ahumado-hacendado-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,VELAS FRUTA TROPICAL,Limpieza y hogar,1.75,https://tienda.mercadona.es/product/35457/vela-perfumada-fruta-tropical-bosque-verde-pequena-caja
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,AGUA MINERAL,Agua y refrescos,0.2,https://tienda.mercadona.es/product/28089/agua-mineral-grande-font-natura-mineralizacion-debil-pack-6
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,REC.ELECT.BRISA AZUL,otros,1.7,URL no encontrada
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,NATA SPRAY,"Huevos, leche y mantequilla",1.7,https://tienda.mercadona.es/product/13598/nata-montada-azucarada-hacendado-spray
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,6 HUEVOS CAMPEROS,"Huevos, leche y mantequilla",1.59,https://tienda.mercadona.es/product/15768/huevos-gallinas-camperas-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,ESPAGUETI CARBONARA,Pizzas y platos preparados,2.2,https://tienda.mercadona.es/product/4265/spaghetti-carbonara-hacendado-bandeja
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,MORTADELA ACEITUNAS,Charcutería y quesos,1.29,https://tienda.mercadona.es/product/59335/mortadela-con-aceitunas-hacendado-lonchas-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,ACEITUNA CORNEZUELO,Aperitivos,5.1,https://tienda.mercadona.es/product/33154/aceitunas-cornezuelo-alinada-aceitunera-jiennense-partida-con-hueso-100-natural-bote
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,PALOMITAS SAL PACK,Aperitivos,1.1,https://tienda.mercadona.es/product/34822/palomitas-maiz-con-sal-hacendado-microondas-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,PALOMITAS SAL PACK,Aperitivos,1.1,https://tienda.mercadona.es/product/34822/palomitas-maiz-con-sal-hacendado-microondas-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,FRESÓN,Fruta y verdura,5.23,https://tienda.mercadona.es/product/22180/papilla-fresa-platano-8-meses-hacendado
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,SALCHICHAS PACK-4,Charcutería y quesos,2.25,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,ARROZ TRES DELICIAS,Congelados,2.9,https://tienda.mercadona.es/product/86905/arroz-tres-delicias-hacendado-ultracongelado-con-2-sazonadores-paquete
+12/01/2024 20:04,3112-014-366455,C/ TETUÁN S/N 23700 LINARES,BARRA DE PAN,Panadería y pastelería,0.48,https://tienda.mercadona.es/product/82322/pan-molde-blanco-sin-corteza-hacendado-paquete
+15/01/2024 19:19,3112-014-366871,C/ TETUÁN S/N 23700 LINARES,ARROZ REDONDO,"Arroz, legumbres y pasta",1.3,https://tienda.mercadona.es/product/5044/arroz-redondo-hacendado-paquete
+15/01/2024 19:19,3112-014-366871,C/ TETUÁN S/N 23700 LINARES,GOFRE CHOCOLATE,Panadería y pastelería,1.55,https://tienda.mercadona.es/product/52892/gofres-con-chocolate-hacendado-paquete
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,BARRA DE PAN,Panadería y pastelería,0.48,https://tienda.mercadona.es/product/82322/pan-molde-blanco-sin-corteza-hacendado-paquete
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,FILM TRANSPARENTE,Limpieza y hogar,1.85,https://tienda.mercadona.es/product/60294/film-transparente-bosque-verde-con-sierra-deslizante-caja
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,PAN BLANCO FAMILIAR,Panadería y pastelería,1.25,https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,MAXI HAMBURGUESA,Panadería y pastelería,0.9,https://tienda.mercadona.es/product/13803/pan-maxi-hamburguesa-hacendado-paquete
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,PINCHO POLLO ADOBADO,Carne,4.55,https://tienda.mercadona.es/product/3456/pinchos-pollo-sin-varilla-adobados-bandeja
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,BURGER CERDO,Carne,3.0,https://tienda.mercadona.es/product/2872/burger-vacuno-cerdo-bandeja
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,FILETE PECHUGA,Carne,4.92,https://tienda.mercadona.es/product/3400/filetes-pechuga-pollo-corte-fino-minimo-10-filetes-bandeja
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,PAPEL HUMEDO WC,Cuidado facial y corporal,1.55,https://tienda.mercadona.es/product/47291/papel-higienico-humedo-wc-bosque-verde-con-aloe-vera-camomila-paquete
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,COLGADOR WC FLORAL,Limpieza y hogar,1.3,https://tienda.mercadona.es/product/52556/colgador-wc-maxigotas-floral-bosque-verde-paquete
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,LONCHAS DE QUESO,Charcutería y quesos,2.2,https://tienda.mercadona.es/product/51110/queso-rallado-mozzarella-pizza-roma-vaca-hacendado-paquete
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,FILETE CABEZA LOMO,Carne,4.31,https://tienda.mercadona.es/product/2817/filetes-lomo-cerdo-cabeza-bandeja
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,FILETE LOMO FAM,Carne,7.15,https://tienda.mercadona.es/product/3395/filetes-lomo-cerdo-familiar-bandeja
+18/01/2024 19:02,3112-014-367651,C/ TETUÁN S/N 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+25/01/2024 20:04,3112-014-369311,C/ TETUÁN S/N 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+25/01/2024 20:04,3112-014-369311,C/ TETUÁN S/N 23700 LINARES,LIMA LIMÓN 2L,Agua y refrescos,1.3,https://tienda.mercadona.es/product/27763/refresco-lima-limon-7-up-botella
+25/01/2024 20:04,3112-014-369311,C/ TETUÁN S/N 23700 LINARES,LIMÓN NORMAL 2L,Fruta y verdura,0.9,https://tienda.mercadona.es/product/3210/limon-pieza
+25/01/2024 20:04,3112-014-369311,C/ TETUÁN S/N 23700 LINARES,HIELO CUBITO 2KG,Congelados,0.85,https://tienda.mercadona.es/product/64126/cubos-hielo-paquete
+25/01/2024 20:04,3112-014-369311,C/ TETUÁN S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.4,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+25/01/2024 20:04,3112-014-369311,C/ TETUÁN S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.4,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+25/01/2024 20:04,3112-014-369311,C/ TETUÁN S/N 23700 LINARES,PEPSI REGULAR BIPACK,Agua y refrescos,3.3,https://tienda.mercadona.es/product/23898/refresco-cola-pepsi-zero-azucar-botella
+05/02/2024 18:10,3112-011-474034,C/ TETUÁN S/N 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+05/02/2024 18:10,3112-011-474034,C/ TETUÁN S/N 23700 LINARES,HIELO CUBITO 2KG,Congelados,0.85,https://tienda.mercadona.es/product/64126/cubos-hielo-paquete
+05/02/2024 18:10,3112-011-474034,C/ TETUÁN S/N 23700 LINARES,TOALLITAS LIMPIAGAFA,Limpieza y hogar,1.6,https://tienda.mercadona.es/product/43088/toallitas-limpiagafas-bosque-verde-monodosis-perfumadas-caja
+05/02/2024 18:10,3112-011-474034,C/ TETUÁN S/N 23700 LINARES,40 B.CIERRA FÁCIL,otros,1.7,URL no encontrada
+05/02/2024 18:10,3112-011-474034,C/ TETUÁN S/N 23700 LINARES,6 HUEVOS GRANDES - L,"Huevos, leche y mantequilla",1.2,https://tienda.mercadona.es/product/31504/huevos-grandes-l-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,HIGIENICO DOBLE ROLL,Limpieza y hogar,4.4,https://tienda.mercadona.es/product/47818/papel-higienico-doble-rollo-bosque-verde-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,PAÑUELOS MENTOL COMP,Limpieza y hogar,1.75,https://tienda.mercadona.es/product/47618/panuelos-papel-mentol-bosque-verde-4-capas-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,PAÑUELOS MENTOL COMP,Limpieza y hogar,1.75,https://tienda.mercadona.es/product/47618/panuelos-papel-mentol-bosque-verde-4-capas-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,BEBIDA UVA-MANZ.TINT,"Huevos, leche y mantequilla",1.6,https://tienda.mercadona.es/product/23926/bebida-almendras-zero-hacendado-sin-azucares-sin-edulcorantes-anadidos-brick
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,PANECILLO 11 UDS,Panadería y pastelería,1.1,https://tienda.mercadona.es/product/22388/6-panecillos-integrales-100
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,PAÑUELO CAJA,Limpieza y hogar,1.3,https://tienda.mercadona.es/product/47609/panuelos-papel-extra-suaves-bosque-verde-2-capas-caja
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,GRIEGO AZUCAR CAÑA,Postres y yogures,1.65,https://tienda.mercadona.es/product/52441/yogur-griego-natural-hacendado-con-azucar-cana-pack-6
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.35,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.35,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.35,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.35,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,CANELÓN CARNE,Congelados,3.3,https://tienda.mercadona.es/product/86600/canelones-carne-hacendado-ultracongelados-caja
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MAYONESA LIGHT.460,"Aceite, especias y salsas",1.35,https://tienda.mercadona.es/product/35839/salsa-ligera-ligeresa-tarro
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,ALTRAMUCES,Aperitivos,1.75,https://tienda.mercadona.es/product/33136/altramuces-hacendado-tarro
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,PIZZA BOLOÑESA,Congelados,2.6,https://tienda.mercadona.es/product/63559/pizza-bolonesa-hacendado-ultracongelada
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,QUESO RALLADO PIZZA,Charcutería y quesos,1.54,https://tienda.mercadona.es/product/51110/queso-rallado-mozzarella-pizza-roma-vaca-hacendado-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MASA EMPANAD. REFRIG,Panadería y pastelería,1.1,https://tienda.mercadona.es/product/63476/masa-fresca-empanada-hacendado-pack-2
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,BOTE CHICLE MENTA,"Azúcar, caramelos y chocolate",1.95,https://tienda.mercadona.es/product/65067/chicles-menta-fuerte-gragea-hacendado-bote
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,MORTADELA ACEITUNAS,Charcutería y quesos,1.29,https://tienda.mercadona.es/product/59335/mortadela-con-aceitunas-hacendado-lonchas-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,BOTE CHICLE HIERBAB,"Azúcar, caramelos y chocolate",1.95,https://tienda.mercadona.es/product/65172/chicles-hierbabuena-gragea-hacendado-bote
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,SALSA FRESCA QUESOS,"Aceite, especias y salsas",1.45,https://tienda.mercadona.es/product/17409/salsa-fresca-queso-hacendado-paquete
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,CINTAS DE BACON,Charcutería y quesos,2.1,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+17/02/2024 20:50,3112-016-283829,C/ TETUÁN S/N 23700 LINARES,CHOPPED LATA,Charcutería y quesos,1.71,https://tienda.mercadona.es/product/59340/chopped-cocido-lata-hacendado-finas-lonchas-paquete
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,FANTA NARANJA 4 L.,Agua y refrescos,3.5,https://tienda.mercadona.es/product/27510/refresco-fanta-naranja-zero-azucares-anadidos-lata
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,HIELO CUBITO 2KG,Congelados,0.85,https://tienda.mercadona.es/product/64126/cubos-hielo-paquete
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,MORTADELA ACEITUNAS,Charcutería y quesos,1.25,https://tienda.mercadona.es/product/59335/mortadela-con-aceitunas-hacendado-lonchas-paquete
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,ROSCA JAMÓN Y QUESO,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,GOFRE CHOCOLATE,Panadería y pastelería,1.45,https://tienda.mercadona.es/product/52892/gofres-con-chocolate-hacendado-paquete
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,MINI BISCOTTE NORMAL,Panadería y pastelería,0.8,https://tienda.mercadona.es/product/82117/mini-biscotes-trigo-minigrill-caja
+04/03/2024 19:01,3112-012-114141,C/ TETUÁN S/N 23700 LINARES,ARROZ REDONDO,"Arroz, legumbres y pasta",1.27,https://tienda.mercadona.es/product/5044/arroz-redondo-hacendado-paquete
+20/03/2024 20:19,3112-014-380711,C/ TETUÁN S/N 23700 LINARES,HIGIENICO DOBLE ROLL,Limpieza y hogar,4.4,https://tienda.mercadona.es/product/47818/papel-higienico-doble-rollo-bosque-verde-paquete
+20/03/2024 20:19,3112-014-380711,C/ TETUÁN S/N 23700 LINARES,PATATAS SERRANO,Aperitivos,1.15,https://tienda.mercadona.es/product/86145/patatas-fritas-onduladas-hacendado-sabor-jamon-serrano-paquete
+20/03/2024 20:19,3112-014-380711,C/ TETUÁN S/N 23700 LINARES,FIDEO CABELLO,"Arroz, legumbres y pasta",0.82,https://tienda.mercadona.es/product/13577/fideo-cabello-angel-hacendado-paquete
+20/03/2024 20:19,3112-014-380711,C/ TETUÁN S/N 23700 LINARES,MACARRON,"Arroz, legumbres y pasta",1.3,https://tienda.mercadona.es/product/6250/macarron-hacendado-paquete
+20/03/2024 20:19,3112-014-380711,C/ TETUÁN S/N 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+06/04/2024 20:52,3112-013-404125,C/ TETUÁN S/N 23700 LINARES,GEL OLIVA,Cuidado facial y corporal,1.4,https://tienda.mercadona.es/product/46578/gel-bano-oliva-deliplus-piel-seca-botella
+06/04/2024 20:52,3112-013-404125,C/ TETUÁN S/N 23700 LINARES,FUET ESPETEC EXTRA,Charcutería y quesos,2.57,https://tienda.mercadona.es/product/55108/fuet-espetec-extra-hacendado
+06/04/2024 20:52,3112-013-404125,C/ TETUÁN S/N 23700 LINARES,PAN BLANCO FAMILIAR,Panadería y pastelería,1.25,https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete
+06/04/2024 20:52,3112-013-404125,C/ TETUÁN S/N 23700 LINARES,MASA EMPANAD. REFRIG,Panadería y pastelería,1.1,https://tienda.mercadona.es/product/63476/masa-fresca-empanada-hacendado-pack-2
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,PACK-4 SALCH.FRANKF,"Huevos, leche y mantequilla",1.85,https://tienda.mercadona.es/product/10381/leche-semidesnatada-hacendado-pack-6
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,CINTAS DE BACON,Charcutería y quesos,2.1,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,CINTAS DE BACON,Charcutería y quesos,2.1,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,Q RALLADO EMMENTAL,otros,1.58,URL no encontrada
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,Q RALLADO EMMENTAL,otros,1.58,URL no encontrada
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,Q RALLADO EMMENTAL,otros,1.58,URL no encontrada
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,PATATAS CHURRERIA,Fruta y verdura,1.05,https://tienda.mercadona.es/product/69066/patata-pieza
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,MAXI YORK LONCHAS,Charcutería y quesos,2.38,https://tienda.mercadona.es/product/56115/maxi-york-hacendado-finas-lonchas-paquete
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,BASE PIZZA FAMILIAR,Pizzas y platos preparados,1.8,https://tienda.mercadona.es/product/52454/masa-pizza-fresca-familiar-hacendado-paquete
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,BASE PIZZA FAMILIAR,Pizzas y platos preparados,1.8,https://tienda.mercadona.es/product/52454/masa-pizza-fresca-familiar-hacendado-paquete
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,PISTACHO TOSTADO SAL,Aperitivos,3.35,https://tienda.mercadona.es/product/86202/pistacho-tostado-hacendado-con-sal-paquete
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,BURGER M CERDO 500G,Carne,2.85,https://tienda.mercadona.es/product/2622/burger-pollo-bandeja
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,ACEITUNA S/HUESO P3,Aperitivos,1.65,https://tienda.mercadona.es/product/52622/aceitunas-picadedos-hacendado-alinadas-sin-hueso-tarro
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,ROSCA LOMO Y BACON,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35822/rosca-lomo-bacon-queso-emmental-hacendado
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,TORREZNO BBQ,Aperitivos,1.55,https://tienda.mercadona.es/product/33436/torreznos-sabor-barbacoa-hacendado-paquete
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,TOMATE FRITO BRICK P,"Aceite, especias y salsas",1.0,https://tienda.mercadona.es/product/17153/tomate-frito-estilo-casero-hacendado-con-aceite-oliva-brick
+10/05/2024 21:18,3112-011-517561,C/ TETUÁN 7 23700 LINARES,BERENJENA,Fruta y verdura,0.67,https://tienda.mercadona.es/product/69326/berenjena-pieza
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,SANDWICH MIXTO J Y Q,Charcutería y quesos,2.8,https://tienda.mercadona.es/product/50371/queso-lonchas-fundido-sandwich-mezcla-hacendado-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,DIVERTIDAS,Cereales y galletas,2.05,https://tienda.mercadona.es/product/22688/galletas-divertidas-con-cereales-hacendado-caja
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,PATATAS CHURRERIA,Fruta y verdura,1.05,https://tienda.mercadona.es/product/69066/patata-pieza
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,PATATAS CHURRERIA,Fruta y verdura,1.05,https://tienda.mercadona.es/product/69066/patata-pieza
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,ROSCA LOMO Y BACON,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35822/rosca-lomo-bacon-queso-emmental-hacendado
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,CRUNCHY CHOC,Cereales y galletas,2.55,https://tienda.mercadona.es/product/23064/galletas-crunchy-choc-hacendado-con-arroz-inflado-chocolateado-chips-chocolate-caja
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,PIPA GIGANTE AGUASAL,Aperitivos,1.2,https://tienda.mercadona.es/product/34078/pipas-girasol-tostadas-hacendado-gigante-aguasal-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,CHEETOS PELOTAZOS,Aperitivos,1.5,https://tienda.mercadona.es/product/33543/pelotazos-sabor-queso-cheetos-lay-s-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,CEREAL RELLENO LECHE,Cereales y galletas,2.5,https://tienda.mercadona.es/product/9264/cereales-rellenos-leche-hacendado-caja
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,ROSCA JAMÓN Y QUESO,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,COCKTAIL TOST. S/SAL,Aperitivos,2.5,https://tienda.mercadona.es/product/86809/cocktail-natural-hacendado-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,COCKTAIL MEZCLA,Aperitivos,1.6,https://tienda.mercadona.es/product/34231/cocktail-mezcla-hacendado-compuesto-maiz-cacahuetes-garbanzos-bolita-snack-pasas-sultanas-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,PAN BLANCO FAMILIAR,Panadería y pastelería,1.25,https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,CHOCO,"Huevos, leche y mantequilla",1.6,https://tienda.mercadona.es/product/10050/batido-chocolate-hacendado-pack-6
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,TORREZNO BBQ,Aperitivos,1.55,https://tienda.mercadona.es/product/33436/torreznos-sabor-barbacoa-hacendado-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,HIELO CUBITO 2KG,Congelados,0.85,https://tienda.mercadona.es/product/64126/cubos-hielo-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,LIMA LIMÓN 2L,Agua y refrescos,1.59,https://tienda.mercadona.es/product/27763/refresco-lima-limon-7-up-botella
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.25,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.25,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.25,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,PISTACHO TOSTADO SAL,Aperitivos,3.35,https://tienda.mercadona.es/product/86202/pistacho-tostado-hacendado-con-sal-paquete
+24/05/2024 18:25,3112-016-300340,C/ TETUÁN 7 23700 LINARES,PAPEL VEGETAL 30H,Limpieza y hogar,1.7,https://tienda.mercadona.es/product/23608/papel-vegetal-bosque-verde-38-x-42-cm-caja
+05/07/2024 17:56,3112-021-886372,C/ TETUÁN 7 23700 LINARES,COLA PACK,Agua y refrescos,3.9,https://tienda.mercadona.es/product/27449/refresco-coca-cola-zero-azucar-pack-2
+05/07/2024 17:56,3112-021-886372,C/ TETUÁN 7 23700 LINARES,HIELO CUBITO 2KG,Congelados,0.85,https://tienda.mercadona.es/product/64126/cubos-hielo-paquete
+05/07/2024 17:56,3112-021-886372,C/ TETUÁN 7 23700 LINARES,QUITAESMALTE C/ACET,Cuidado facial y corporal,1.15,https://tienda.mercadona.es/product/79631/quitaesmalte-con-acetona-deliplus-bote
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,LIMA LIMÓN PACK,Postres y yogures,4.95,https://tienda.mercadona.es/product/20324/bifidus-cremoso-con-lima-limon-activia-danone-pack-4
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,YOGUR SABORES,Postres y yogures,2.5,https://tienda.mercadona.es/product/22313/yogur-natural-hacendado-pack-6
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MAIZ DULCE PACK-3,"Conservas, caldos y cremas",1.6,https://tienda.mercadona.es/product/16712/maiz-dulce-hacendado-pack-3
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,LONGANIZA CLASICA EX,Charcutería y quesos,2.8,https://tienda.mercadona.es/product/55125/longaniza-clasica-extra-hacendado
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,QUESO TIERNO,Charcutería y quesos,3.51,https://tienda.mercadona.es/product/50385/queso-lonchas-tierno-mezcla-entrepinares-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CAFÉ LECHE ESPRESSO,"Cacao, café e infusiones",0.75,https://tienda.mercadona.es/product/10644/cafe-con-leche-espresso-hacendado-vaso
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CAFÉ LECHE CAPPUCCIN,"Cacao, café e infusiones",0.75,https://tienda.mercadona.es/product/10666/cafe-con-leche-cappuccino-hacendado-vaso
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CAFÉ LECHE CAPPUCCIN,"Cacao, café e infusiones",0.75,https://tienda.mercadona.es/product/10666/cafe-con-leche-cappuccino-hacendado-vaso
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CAFÉ LECHE CAPPUCCIN,"Cacao, café e infusiones",0.75,https://tienda.mercadona.es/product/10666/cafe-con-leche-cappuccino-hacendado-vaso
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CAFÉ LECHE CAPPUCCIN,"Cacao, café e infusiones",0.75,https://tienda.mercadona.es/product/10666/cafe-con-leche-cappuccino-hacendado-vaso
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ESPINAZO CERDO,Carne,1.37,https://tienda.mercadona.es/product/2689/espinazo-cerdo-bandeja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ESPINAZO CERDO,Carne,1.3,https://tienda.mercadona.es/product/2689/espinazo-cerdo-bandeja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MANOS,Limpieza y hogar,2.76,https://tienda.mercadona.es/product/35998/lavavajillas-ultra-concentrado-bosque-verde-lavado-mano-botella
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CUQUITOS,Charcutería y quesos,0.75,https://tienda.mercadona.es/product/59018/mini-taquitos-jamon-incarlopsa-pack-2
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CUQUITOS,Charcutería y quesos,0.75,https://tienda.mercadona.es/product/59018/mini-taquitos-jamon-incarlopsa-pack-2
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ESPINAZO CERDO,Carne,1.33,https://tienda.mercadona.es/product/2689/espinazo-cerdo-bandeja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MANOS,Limpieza y hogar,3.21,https://tienda.mercadona.es/product/35998/lavavajillas-ultra-concentrado-bosque-verde-lavado-mano-botella
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,Q SEMI MEZCLA,otros,4.13,URL no encontrada
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,SARTA PICANTE,Charcutería y quesos,2.49,https://tienda.mercadona.es/product/23146/chorizo-sarta-extra-picante-ahumado-leon-pieza
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MAXI HAMBURGUESA,Panadería y pastelería,0.9,https://tienda.mercadona.es/product/13803/pan-maxi-hamburguesa-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,DESNAT.NATURAL EDULC,otros,1.05,URL no encontrada
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MINI BISCOTTE NORMAL,Panadería y pastelería,0.8,https://tienda.mercadona.es/product/82117/mini-biscotes-trigo-minigrill-caja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,PIPA GIGANTE SAL,Aperitivos,1.2,https://tienda.mercadona.es/product/34079/pipas-girasol-tostadas-hacendado-gigante-con-sal-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,PIPA GIGANTE SAL,Aperitivos,1.2,https://tienda.mercadona.es/product/34079/pipas-girasol-tostadas-hacendado-gigante-con-sal-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MAIZ FRITO CRUJIENTE,Aperitivos,1.0,https://tienda.mercadona.es/product/34821/maiz-frito-crujiente-tierno-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,COCKTAIL MEZCLA,Aperitivos,1.5,https://tienda.mercadona.es/product/34231/cocktail-mezcla-hacendado-compuesto-maiz-cacahuetes-garbanzos-bolita-snack-pasas-sultanas-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,QUESO RALLADO PIZZA,Charcutería y quesos,1.54,https://tienda.mercadona.es/product/51110/queso-rallado-mozzarella-pizza-roma-vaca-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FLAN VAINILLA,Postres y yogures,1.0,https://tienda.mercadona.es/product/68137/natillas-sabor-vainilla-hacendado-pack-4
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FLAN VAINILLA,Postres y yogures,1.0,https://tienda.mercadona.es/product/68137/natillas-sabor-vainilla-hacendado-pack-4
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,AJO PEREJIL,Panadería y pastelería,1.35,https://tienda.mercadona.es/product/82227/pan-rallado-con-ajo-perejil-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,AJO PEREJIL,Panadería y pastelería,1.35,https://tienda.mercadona.es/product/82227/pan-rallado-con-ajo-perejil-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,VARITAS DIF JASMINE,Cereales y galletas,2.15,https://tienda.mercadona.es/product/14085/galletas-mini-caritas-hacendado-con-crema-cacao-caja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,PAN BLANCO FAMILIAR,Panadería y pastelería,1.25,https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,SALCHICHON 4PACK,Charcutería y quesos,2.05,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,SALCHICHON 4PACK,Charcutería y quesos,2.05,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CHORIZO 4PACK,Charcutería y quesos,2.1,https://tienda.mercadona.es/product/59086/chorizo-extra-hacendado-lonchas-pack-4
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CHORIZO 4PACK,Charcutería y quesos,2.1,https://tienda.mercadona.es/product/59086/chorizo-extra-hacendado-lonchas-pack-4
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CHORIZO PAMPLO 4 PAC,Charcutería y quesos,1.95,https://tienda.mercadona.es/product/54209/chorizo-dulce-extra-hacendado-pieza
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,CHORIZO PAMPLO 4 PAC,Charcutería y quesos,1.95,https://tienda.mercadona.es/product/54209/chorizo-dulce-extra-hacendado-pieza
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,JAMÓN SERRANO SOBRE,Charcutería y quesos,4.1,https://tienda.mercadona.es/product/59151/jamon-serrano-incarlopsa-lonchas-extrafinas-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,JAMÓN SERRANO SOBRE,Charcutería y quesos,4.1,https://tienda.mercadona.es/product/59151/jamon-serrano-incarlopsa-lonchas-extrafinas-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,0% CON FRUTAS X8,Aperitivos,2.05,https://tienda.mercadona.es/product/34822/palomitas-maiz-con-sal-hacendado-microondas-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,GOLOSINAS MINI MIX,"Azúcar, caramelos y chocolate",1.6,https://tienda.mercadona.es/product/8946/golosinas-mini-mix-con-pica-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,UNTAPÁN CANGREJO,Pizzas y platos preparados,1.5,https://tienda.mercadona.es/product/8251/untapan-cangrejo-hacendado-tarrina
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FILETE CABEZA LOMO,Carne,5.42,https://tienda.mercadona.es/product/2817/filetes-lomo-cerdo-cabeza-bandeja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,BURGER CERDO,Carne,2.5,https://tienda.mercadona.es/product/2872/burger-vacuno-cerdo-bandeja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FILETE LOMO FAM,Carne,6.37,https://tienda.mercadona.es/product/3395/filetes-lomo-cerdo-familiar-bandeja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,AZUCAR,Agua y refrescos,1.25,https://tienda.mercadona.es/product/29073/refresco-cola-hacendado-zero-azucar-botella
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ALMEJA BLANCA NORTE,"Conservas, caldos y cremas",1.5,https://tienda.mercadona.es/product/18579/almejas-blancas-norte-natural-hacendado-lata
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ALMEJA BLANCA NORTE,"Conservas, caldos y cremas",1.5,https://tienda.mercadona.es/product/18579/almejas-blancas-norte-natural-hacendado-lata
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,KETCHUP,"Aceite, especias y salsas",1.25,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,SAL YODADA,"Aceite, especias y salsas",0.35,https://tienda.mercadona.es/product/19732/sal-yodada-fina-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,JAMON COCIDO SANDWIC,Charcutería y quesos,2.05,https://tienda.mercadona.es/product/59215/jamon-cocido-extra-sandwich-hacendado-lonchas-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MELOCOTON S/AZ,Zumos,1.0,https://tienda.mercadona.es/product/39119/bebida-pina-hacendado-sin-azucares-anadidos-brick
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,LAVAV. MAQ. LIQUIDO,Limpieza y hogar,2.95,https://tienda.mercadona.es/product/86643/cepillo-lavar-con-asa-bosque-verde
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ROLLO COCINA JUMBO,Limpieza y hogar,3.55,https://tienda.mercadona.es/product/49619/papel-hogar-compacto-absorbente-bosque-verde-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FILETE PECHUGA,Carne,4.94,https://tienda.mercadona.es/product/3400/filetes-pechuga-pollo-corte-fino-minimo-10-filetes-bandeja
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ACEITUNA NEGRA S/H,Aperitivos,1.05,https://tienda.mercadona.es/product/5588/aceitunas-negras-hacendado-sin-hueso-pack-3
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ATUN EN A. GIRASOL,"Conservas, caldos y cremas",6.45,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ATUN EN A. GIRASOL,"Conservas, caldos y cremas",6.45,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ATUN EN A. GIRASOL,"Conservas, caldos y cremas",6.45,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.05,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.05,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ACEITUNA SIN HUESO,Aperitivos,2.6,https://tienda.mercadona.es/product/33053/aceitunas-manzanilla-hacendado-sin-hueso-tarro
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ROSCA JAMÓN Y QUESO,Pizzas y platos preparados,3.8,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,SALCHICHAS PACK-4,Charcutería y quesos,2.25,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MASA EMPANADA,Panadería y pastelería,2.4,https://tienda.mercadona.es/product/9860/masa-gruesa-empanadas-buitoni-estilo-argentino-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ANCHOAS A.GIRASOL P3,Marisco y pescado,2.1,https://tienda.mercadona.es/product/18407/filetes-anchoa-aceite-girasol-hacendado-pack-3
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,BASE DE PIZZA,Congelados,2.4,https://tienda.mercadona.es/product/63648/bases-pizza-artesanas-extrafinas-crujientes-hacendado-ultracongeladas-con-aceite-oliva-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MEJILLONES ESCABECHE,"Conservas, caldos y cremas",2.6,https://tienda.mercadona.es/product/18615/mejillones-escabeche-hacendado-pequenos-pack-2
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MEJILLONES ESCABECHE,"Conservas, caldos y cremas",2.6,https://tienda.mercadona.es/product/18615/mejillones-escabeche-hacendado-pequenos-pack-2
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,LONCHAS DE QUESO,Charcutería y quesos,2.2,https://tienda.mercadona.es/product/51110/queso-rallado-mozzarella-pizza-roma-vaca-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MACARRON,"Arroz, legumbres y pasta",1.24,https://tienda.mercadona.es/product/6250/macarron-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MACARRON,"Arroz, legumbres y pasta",1.24,https://tienda.mercadona.es/product/6250/macarron-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FIDEO CABELLO,"Arroz, legumbres y pasta",0.79,https://tienda.mercadona.es/product/13577/fideo-cabello-angel-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FIDEO CABELLO,"Arroz, legumbres y pasta",0.79,https://tienda.mercadona.es/product/13577/fideo-cabello-angel-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,6 HUEVOS GRANDES-L,"Huevos, leche y mantequilla",1.2,https://tienda.mercadona.es/product/31504/huevos-grandes-l-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,MORTADELA ACEITUNAS,Charcutería y quesos,1.25,https://tienda.mercadona.es/product/59335/mortadela-con-aceitunas-hacendado-lonchas-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ORÉGANO,"Aceite, especias y salsas",0.95,https://tienda.mercadona.es/product/5598/oregano-hacendado-bote
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ARROZ REDONDO,"Arroz, legumbres y pasta",1.27,https://tienda.mercadona.es/product/5044/arroz-redondo-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ARROZ REDONDO,"Arroz, legumbres y pasta",1.27,https://tienda.mercadona.es/product/5044/arroz-redondo-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,24 HUEVOS FRESCOS,"Arroz, legumbres y pasta",3.8,https://tienda.mercadona.es/product/6153/pasta-fresca-tagliatelle-huevo-hacendado-paquete
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FANTA NARANJA 4 L.,Agua y refrescos,3.0,https://tienda.mercadona.es/product/27510/refresco-fanta-naranja-zero-azucares-anadidos-lata
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,ACEITE VIRGEN,"Aceite, especias y salsas",7.9,https://tienda.mercadona.es/product/4740/aceite-oliva-virgen-extra-hacendado-botella
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,FTE. CABALLA TOMATE,otros,1.55,URL no encontrada
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,AGUA MINERAL,Agua y refrescos,0.25,https://tienda.mercadona.es/product/28089/agua-mineral-grande-font-natura-mineralizacion-debil-pack-6
+06/09/2024 17:22,4168-016-279833,AVDA. DEL AJEDREZ LUIS RENTERO S/N 23700 LINARES,BARRA DE PAN 3 UDS,Panadería y pastelería,1.15,https://tienda.mercadona.es/product/82322/pan-molde-blanco-sin-corteza-hacendado-paquete
+11/09/2024 19:22,3112-012-131877,C/ TETUÁN 7 23700 LINARES,INS PERFUMADO,otros,2.15,URL no encontrada
+11/09/2024 19:22,3112-012-131877,C/ TETUÁN 7 23700 LINARES,GOFRE CHOCOLATE,Panadería y pastelería,1.45,https://tienda.mercadona.es/product/52892/gofres-con-chocolate-hacendado-paquete
+11/09/2024 19:22,3112-012-131877,C/ TETUÁN 7 23700 LINARES,PAPEL HUMEDO WC,Cuidado facial y corporal,1.55,https://tienda.mercadona.es/product/47291/papel-higienico-humedo-wc-bosque-verde-con-aloe-vera-camomila-paquete
+11/09/2024 19:22,3112-012-131877,C/ TETUÁN 7 23700 LINARES,COLGADOR WC SPA,Limpieza y hogar,1.3,https://tienda.mercadona.es/product/8264/colgador-wc-maxigotas-spa-bosque-verde-paquete
+11/09/2024 19:22,3112-012-131877,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,MINI BISCOTTE NORMAL,Panadería y pastelería,0.8,https://tienda.mercadona.es/product/82117/mini-biscotes-trigo-minigrill-caja
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,PAN BLANCO FAMILIAR,Panadería y pastelería,1.25,https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,ACT.BLANQUEANTE LIQ.,otros,1.75,URL no encontrada
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,ROLLO COCINA JUMBO,Limpieza y hogar,3.65,https://tienda.mercadona.es/product/49619/papel-hogar-compacto-absorbente-bosque-verde-paquete
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,PAPEL HUMEDO WC,Cuidado facial y corporal,1.55,https://tienda.mercadona.es/product/47291/papel-higienico-humedo-wc-bosque-verde-con-aloe-vera-camomila-paquete
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,FLAN VAINILLA,Postres y yogures,1.0,https://tienda.mercadona.es/product/68137/natillas-sabor-vainilla-hacendado-pack-4
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,ROSCA JAMÓN Y QUESO,Pizzas y platos preparados,3.8,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+22/10/2024 13:03,3112-011-590249,C/ TETUÁN 7 23700 LINARES,MORTADELA ACEITUNAS,Charcutería y quesos,1.25,https://tienda.mercadona.es/product/59335/mortadela-con-aceitunas-hacendado-lonchas-paquete
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,ROSCA LOMO Y BACON,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35822/rosca-lomo-bacon-queso-emmental-hacendado
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,Q RALLADO EMMENTAL,otros,1.61,URL no encontrada
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,Q RALLADO EMMENTAL,otros,1.61,URL no encontrada
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,PATATAS CHURRERIA,Fruta y verdura,1.05,https://tienda.mercadona.es/product/69066/patata-pieza
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,6 HUEVOS GRANDES-L,"Huevos, leche y mantequilla",1.22,https://tienda.mercadona.es/product/31504/huevos-grandes-l-paquete
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,ACEITUNA S/HUESO P3,Aperitivos,1.65,https://tienda.mercadona.es/product/52622/aceitunas-picadedos-hacendado-alinadas-sin-hueso-tarro
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,PACK-4 SALCH.FRANKF,"Huevos, leche y mantequilla",1.75,https://tienda.mercadona.es/product/10381/leche-semidesnatada-hacendado-pack-6
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,SALCHICHAS PACK-4,Charcutería y quesos,2.25,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,CINTAS DE BACON,Charcutería y quesos,2.2,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,GEL AFEITAR SENS.,Cuidado facial y corporal,1.55,https://tienda.mercadona.es/product/23013/gel-afeitar-sensitive-deliplus-bote
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.25,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.25,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.25,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.25,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,TOM.RECETA ARTESANA,otros,1.5,URL no encontrada
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+28/10/2024 14:06,3112-020-154731,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,ROSCA JAMÓN Y QUESO,Pizzas y platos preparados,3.8,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,HIGIENICO DOBLE ROLL,Limpieza y hogar,4.7,https://tienda.mercadona.es/product/47818/papel-higienico-doble-rollo-bosque-verde-paquete
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,PAN BLANCO FAMILIAR,Panadería y pastelería,1.25,https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,FLAN VAINILLA,Postres y yogures,1.0,https://tienda.mercadona.es/product/68137/natillas-sabor-vainilla-hacendado-pack-4
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,MORTADELA ACEITUNAS,Charcutería y quesos,1.25,https://tienda.mercadona.es/product/59335/mortadela-con-aceitunas-hacendado-lonchas-paquete
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,MACARRON,"Arroz, legumbres y pasta",1.22,https://tienda.mercadona.es/product/6250/macarron-hacendado-paquete
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,TORTILLA PAT C/CEB,Pizzas y platos preparados,2.6,https://tienda.mercadona.es/product/80895/tortilla-patata-cebolla-hacendado-con-aceite-oliva-bandeja
+21/11/2024 15:41,3112-011-604038,C/ TETUÁN 7 23700 LINARES,SURTIDO DULCES,Panadería y pastelería,3.47,https://tienda.mercadona.es/product/84937/surtido-croissants-rellenos-crema-cacao-crema-con-leche-sabor-chocolate-blanco-bandeja
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,ROSCA JAMÓN Y QUESO,Pizzas y platos preparados,3.8,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,TRUFA CACAO,"Azúcar, caramelos y chocolate",1.9,https://tienda.mercadona.es/product/36307/trufas-clasicas-cacao-hacendado-caja
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.2,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.05,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,T CHOCO CRUJIENTE,otros,1.95,URL no encontrada
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,POLVORON GRANEL,Panadería y pastelería,6.28,https://tienda.mercadona.es/product/85708/polvoron-almendra-muralla
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,SURTIDO DULCES,Panadería y pastelería,2.27,https://tienda.mercadona.es/product/84937/surtido-croissants-rellenos-crema-cacao-crema-con-leche-sabor-chocolate-blanco-bandeja
+14/12/2024 19:17,3112-014-432457,C/ TETUÁN 7 23700 LINARES,POLVORON GRANEL,Panadería y pastelería,3.47,https://tienda.mercadona.es/product/85708/polvoron-almendra-muralla
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,SNACK LECHE AVELLANA,Aperitivos,1.85,https://tienda.mercadona.es/product/86146/patatas-fritas-extra-crujientes-hacendado-paquete
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,SNACK LECHE AVELLANA,Aperitivos,1.85,https://tienda.mercadona.es/product/86146/patatas-fritas-extra-crujientes-hacendado-paquete
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,PIZZA JAMON Y QUESO,Pizzas y platos preparados,2.5,https://tienda.mercadona.es/product/63581/pizza-jamon-queso-hacendado
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,ROSCA JAMON Y QUESO,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,GOFRE CHOCOLATE,Panadería y pastelería,1.45,https://tienda.mercadona.es/product/52892/gofres-con-chocolate-hacendado-paquete
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,GOFRE CHOCOLATE,Panadería y pastelería,1.45,https://tienda.mercadona.es/product/52892/gofres-con-chocolate-hacendado-paquete
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,HIELO CUBITO 2KG,Congelados,0.85,https://tienda.mercadona.es/product/64126/cubos-hielo-paquete
+12/09/2023 21:30,3112-021-757036,C/ TETUÁN S/N 23700 LINARES,VARITAS DIF JASMINE,Cereales y galletas,2.2,https://tienda.mercadona.es/product/14085/galletas-mini-caritas-hacendado-con-crema-cacao-caja
+13/09/2023 18:34,4168-010-210482,AVDA. DEL AJEDREZ `LUIS RENTERO` S/N 23700 LINARES,200 SERVIL. BLANCAS,otros,1.3,URL no encontrada
+13/09/2023 18:34,4168-010-210482,AVDA. DEL AJEDREZ `LUIS RENTERO` S/N 23700 LINARES,PAJITAS REUTI.,Limpieza y hogar,1.15,https://tienda.mercadona.es/product/23516/pajitas-rectas-reutilizables-paquete
+13/09/2023 18:34,4168-010-210482,AVDA. DEL AJEDREZ `LUIS RENTERO` S/N 23700 LINARES,PLATO GRANDE,Marisco y pescado,1.6,https://tienda.mercadona.es/product/4578/surtido-sushi-bento-grande-contiene-4-uramakis-4-makis-4-nigiris-2-futomakis-salsa-soja-salsa-ponzu-salsa-wasabi-bandeja
+13/09/2023 18:34,4168-010-210482,AVDA. DEL AJEDREZ `LUIS RENTERO` S/N 23700 LINARES,VASO REUTILIZABLE,Limpieza y hogar,1.55,https://tienda.mercadona.es/product/22496/vasos-medianos-plastico-bosque-verde-reutilizables-400-ml-paquete
+13/09/2023 18:34,4168-010-210482,AVDA. DEL AJEDREZ `LUIS RENTERO` S/N 23700 LINARES,GALLETITAS SALADAS,Aperitivos,1.3,https://tienda.mercadona.es/product/14216/galletitas-saladas-hacendado-bote
+13/09/2023 18:34,4168-010-210482,AVDA. DEL AJEDREZ `LUIS RENTERO` S/N 23700 LINARES,PATATAS SERRANO,Aperitivos,1.2,https://tienda.mercadona.es/product/86145/patatas-fritas-onduladas-hacendado-sabor-jamon-serrano-paquete
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,FANTA NARANJA 4 L.,Agua y refrescos,2.92,https://tienda.mercadona.es/product/27510/refresco-fanta-naranja-zero-azucares-anadidos-lata
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,COLA PACK,Agua y refrescos,3.72,https://tienda.mercadona.es/product/27449/refresco-coca-cola-zero-azucar-pack-2
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,MORTADELA ACEITUNAS,Charcutería y quesos,1.29,https://tienda.mercadona.es/product/59335/mortadela-con-aceitunas-hacendado-lonchas-paquete
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,CHORIZO AP. DULCE,Charcutería y quesos,2.5,https://tienda.mercadona.es/product/54209/chorizo-dulce-extra-hacendado-pieza
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,T CHOCO CRUJIENTE,otros,1.7,URL no encontrada
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,SALMÓN AHUMADO,Marisco y pescado,3.71,https://tienda.mercadona.es/product/53444/salmon-ahumado-hacendado-paquete
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,VALENCIANA,Panadería y pastelería,2.5,https://tienda.mercadona.es/product/82032/valencianas-hacendado-paquete
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,ROSCA LOMO-BACON-QUE,Fruta y verdura,3.5,https://tienda.mercadona.es/product/69444/tomate-rosa-pieza
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,MINI BISCOTTE NORMAL,Panadería y pastelería,0.8,https://tienda.mercadona.es/product/82117/mini-biscotes-trigo-minigrill-caja
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,SALCHICHAS PACK-4,Charcutería y quesos,2.39,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,CARACOLA AL CACAO,Panadería y pastelería,1.6,https://tienda.mercadona.es/product/84663/caracola-con-pasas-10-pieza
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,FLAN VAINILLA,Postres y yogures,1.0,https://tienda.mercadona.es/product/68137/natillas-sabor-vainilla-hacendado-pack-4
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,AGUA MINERAL,Agua y refrescos,0.2,https://tienda.mercadona.es/product/28089/agua-mineral-grande-font-natura-mineralizacion-debil-pack-6
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,MASA EMPANAD. REFRIG,Panadería y pastelería,1.1,https://tienda.mercadona.es/product/63476/masa-fresca-empanada-hacendado-pack-2
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,VELAS FRUTA TROPICAL,Limpieza y hogar,1.75,https://tienda.mercadona.es/product/35457/vela-perfumada-fruta-tropical-bosque-verde-pequena-caja
+26/09/2023 19:40,3112-013-363448,C/ TETUÁN S/N 23700 LINARES,BATIDO CHOCOLATE PAC,"Huevos, leche y mantequilla",1.4,https://tienda.mercadona.es/product/10050/batido-chocolate-hacendado-pack-6
+10/10/2023 20:33,3112-011-422326,C/ TETUÁN S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.4,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+10/10/2023 20:33,3112-011-422326,C/ TETUÁN S/N 23700 LINARES,JABON MANOS DERMOP,Cuidado facial y corporal,0.9,https://tienda.mercadona.es/product/46699/jabon-manos-dermoprotector-deliplus-bote
+10/10/2023 20:33,3112-011-422326,C/ TETUÁN S/N 23700 LINARES,PIMIENTA NEGRA MOLID,"Aceite, especias y salsas",1.05,https://tienda.mercadona.es/product/34171/pimienta-negra-molida-hacendado-bote
+10/10/2023 20:33,3112-011-422326,C/ TETUÁN S/N 23700 LINARES,OREGANO,"Aceite, especias y salsas",0.75,https://tienda.mercadona.es/product/5598/oregano-hacendado-bote
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,CERVEZA CLASICA PET,Bodega,0.95,https://tienda.mercadona.es/product/66462/cerveza-clasica-steinburg-pack-12
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,CERVEZA CLASICA PET,Bodega,0.95,https://tienda.mercadona.es/product/66462/cerveza-clasica-steinburg-pack-12
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,PATATAS CHURRERIA,Fruta y verdura,1.0,https://tienda.mercadona.es/product/69066/patata-pieza
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,PATATAS CHURRERIA,Fruta y verdura,1.0,https://tienda.mercadona.es/product/69066/patata-pieza
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,PAN BLANCO FAMILIAR,Panadería y pastelería,1.25,https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,SALMÓN AHUMADO,Marisco y pescado,3.98,https://tienda.mercadona.es/product/53444/salmon-ahumado-hacendado-paquete
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.35,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.35,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,MAYONESA 460ML,"Aceite, especias y salsas",1.35,https://tienda.mercadona.es/product/23579/ketchup-hacendado-bote
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,Q RALLADO EMMENTAL,otros,1.63,URL no encontrada
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,Q RALLADO EMMENTAL,otros,1.63,URL no encontrada
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,SALAMI PACK-4,Charcutería y quesos,1.97,https://tienda.mercadona.es/product/59090/salami-extra-hacendado-lonchas-pack-4
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,CHORIZO 4PACK,Charcutería y quesos,2.19,https://tienda.mercadona.es/product/59086/chorizo-extra-hacendado-lonchas-pack-4
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,TOMATE FRITO BRICK P,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17153/tomate-frito-estilo-casero-hacendado-con-aceite-oliva-brick
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,MACARRON,"Arroz, legumbres y pasta",1.24,https://tienda.mercadona.es/product/6250/macarron-hacendado-paquete
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,MAXI YORK LONCHAS,Charcutería y quesos,2.38,https://tienda.mercadona.es/product/56115/maxi-york-hacendado-finas-lonchas-paquete
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,CINTAS DE BACON,Charcutería y quesos,2.1,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+21/10/2023 20:04,3112-014-347536,C/ TETUÁN S/N 23700 LINARES,BASE DE PIZZA,Congelados,2.4,https://tienda.mercadona.es/product/63648/bases-pizza-artesanas-extrafinas-crujientes-hacendado-ultracongeladas-con-aceite-oliva-paquete
+31/10/2023 18:22,3112-016-265002,C/ TETUÁN S/N 23700 LINARES,COLA PACK,Agua y refrescos,3.72,https://tienda.mercadona.es/product/27449/refresco-coca-cola-zero-azucar-pack-2
+31/10/2023 18:22,3112-016-265002,C/ TETUÁN S/N 23700 LINARES,TRUFA CACAO,"Azúcar, caramelos y chocolate",1.85,https://tienda.mercadona.es/product/36307/trufas-clasicas-cacao-hacendado-caja
+31/10/2023 18:22,3112-016-265002,C/ TETUÁN S/N 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+31/10/2023 18:22,3112-016-265002,C/ TETUÁN S/N 23700 LINARES,ROSCA JAMON Y QUESO,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+31/10/2023 18:22,3112-016-265002,C/ TETUÁN S/N 23700 LINARES,POLVORON GRANEL,Panadería y pastelería,3.46,https://tienda.mercadona.es/product/85708/polvoron-almendra-muralla
+31/10/2023 18:22,3112-016-265002,C/ TETUÁN S/N 23700 LINARES,MANDARINA,Fruta y verdura,1.17,https://tienda.mercadona.es/product/3238/mandarina-pieza
+02/11/2023 21:06,3112-021-778889,C/ TETUÁN S/N 23700 LINARES,ALLIOLI TARRINA,"Aceite, especias y salsas",1.1,https://tienda.mercadona.es/product/17172/allioli-hacendado-tarrina
+02/11/2023 21:06,3112-021-778889,C/ TETUÁN S/N 23700 LINARES,PATATAS BRAVAS,Pizzas y platos preparados,2.5,https://tienda.mercadona.es/product/11669/patatas-bravas-con-mayonesa-salsa-picante-hacendado-bandeja
+02/11/2023 21:06,3112-021-778889,C/ TETUÁN S/N 23700 LINARES,MAXI HAMBURGUESA,Panadería y pastelería,0.9,https://tienda.mercadona.es/product/13803/pan-maxi-hamburguesa-hacendado-paquete
+02/11/2023 21:06,3112-021-778889,C/ TETUÁN S/N 23700 LINARES,LOCION AFTER SHAVE,Cuidado facial y corporal,2.8,https://tienda.mercadona.es/product/60658/locion-after-shave-fresh-deliplus-con-alcohol-bote
+02/11/2023 21:06,3112-021-778889,C/ TETUÁN S/N 23700 LINARES,PATATAS ACEITE OLIVA,Aperitivos,2.7,https://tienda.mercadona.es/product/33344/patatas-fritas-100-aceite-oliva-santo-reino-paquete
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,6 HUEVOS CAMPEROS,"Huevos, leche y mantequilla",1.59,https://tienda.mercadona.es/product/15768/huevos-gallinas-camperas-paquete
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,GRIEGO STRACCIAT.P-6,Postres y yogures,1.9,https://tienda.mercadona.es/product/20571/yogur-griego-stracciatella-hacendado-pack-6
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,PAPEL HUMEDO WC,Cuidado facial y corporal,1.55,https://tienda.mercadona.es/product/47291/papel-higienico-humedo-wc-bosque-verde-con-aloe-vera-camomila-paquete
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,ARROZ CON LECHE,Postres y yogures,1.4,https://tienda.mercadona.es/product/68354/arroz-con-leche-hacendado-pack-4
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,Q RALLADO EMMENTAL,otros,1.63,URL no encontrada
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,Q RALLADO EMMENTAL,otros,1.63,URL no encontrada
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,Q RALLADO EMMENTAL,otros,1.63,URL no encontrada
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,SALMÓN AHUMADO,Marisco y pescado,3.81,https://tienda.mercadona.es/product/53444/salmon-ahumado-hacendado-paquete
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,CINTAS DE BACON,Charcutería y quesos,2.1,https://tienda.mercadona.es/product/59066/bacon-hacendado-cintas-pack-2
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.4,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,MAXI YORK LONCHAS,Charcutería y quesos,2.38,https://tienda.mercadona.es/product/56115/maxi-york-hacendado-finas-lonchas-paquete
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,BASE DE PIZZA,Congelados,2.4,https://tienda.mercadona.es/product/63648/bases-pizza-artesanas-extrafinas-crujientes-hacendado-ultracongeladas-con-aceite-oliva-paquete
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,BASE DE PIZZA,Congelados,2.4,https://tienda.mercadona.es/product/63648/bases-pizza-artesanas-extrafinas-crujientes-hacendado-ultracongeladas-con-aceite-oliva-paquete
+04/11/2023 21:08,3112-021-779822,C/ TETUÁN S/N 23700 LINARES,PLATANO,Fruta y verdura,1.18,https://tienda.mercadona.es/product/3819/platano-canarias-igp-pieza
+07/11/2023 18:58,3112-011-433992,C/ TETUÁN S/N 23700 LINARES,PAN BLANCO FAMILIAR,Panadería y pastelería,1.25,https://tienda.mercadona.es/product/83867/pan-molde-blanco-familiar-hacendado-paquete
+07/11/2023 18:58,3112-011-433992,C/ TETUÁN S/N 23700 LINARES,ATÚN CLARO GIRAS PK6,"Conservas, caldos y cremas",4.4,https://tienda.mercadona.es/product/18002/atun-claro-aceite-oliva-hacendado-pack-6
+07/11/2023 18:58,3112-011-433992,C/ TETUÁN S/N 23700 LINARES,T CHOCO CRUJIENTE,otros,1.7,URL no encontrada
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,BOLSA PLASTICO,otros,0.15,URL no encontrada
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,PAPEL ALUMINIO,Limpieza y hogar,2.2,https://tienda.mercadona.es/product/49000/papel-aluminio-bosque-verde-caja
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,CALENDARIO ADVIENTO,otros,1.1,URL no encontrada
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,PIZZA ATUN BACON,Pizzas y platos preparados,2.9,https://tienda.mercadona.es/product/63582/pizza-atun-bacon-hacendado
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,ROSCA JAMON Y QUESO,Pizzas y platos preparados,3.5,https://tienda.mercadona.es/product/35851/rosca-jamon-serrano-queso-emmental-hacendado
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,POWERADE ICE STORM,otros,1.39,URL no encontrada
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,COLA PACK,Agua y refrescos,3.72,https://tienda.mercadona.es/product/27449/refresco-coca-cola-zero-azucar-pack-2
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,ESPAGUETI CARBONARA,Pizzas y platos preparados,2.2,https://tienda.mercadona.es/product/4265/spaghetti-carbonara-hacendado-bandeja
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,MINI BISCOTTE NORMAL,Panadería y pastelería,0.8,https://tienda.mercadona.es/product/82117/mini-biscotes-trigo-minigrill-caja
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,CABECERO LOMO 4 PACK,Charcutería y quesos,2.3,https://tienda.mercadona.es/product/59076/cabecero-lomo-hacendado-lonchas-pack-4
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,FLAUTAS BACON/QUESO,Carne,1.85,https://tienda.mercadona.es/product/2169/flautas-bacon-queso-bandeja
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,RULITO QUESO PIÑA,otros,1.39,URL no encontrada
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,GEL WC C/ LEJÍA,Limpieza y hogar,1.0,https://tienda.mercadona.es/product/43113/limpiador-wc-con-lejia-bosque-verde-gel-botella
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,ALTRAMUCES,Aperitivos,1.75,https://tienda.mercadona.es/product/33136/altramuces-hacendado-tarro
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,RELLENO FAJITAS,Congelados,1.9,https://tienda.mercadona.es/product/86820/relleno-fajitas-pollo-pimientos-cebolla-hacendado-ultracongelado-paquete
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,TRUFA CACAO,"Azúcar, caramelos y chocolate",1.85,https://tienda.mercadona.es/product/36307/trufas-clasicas-cacao-hacendado-caja
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,T CHOCO CRUJIENTE,otros,1.6,URL no encontrada
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,30 TOALLITAS LIMPIAM,Limpieza y hogar,1.35,https://tienda.mercadona.es/product/43482/toallitas-limpiadoras-banos-bosque-verde-paquete
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,GEL VAINILLA,Cuidado facial y corporal,1.4,https://tienda.mercadona.es/product/60555/gel-bano-vainilla-miel-deliplus-piel-normal-botella
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,RECAMB.ELEC.ORQUIDEA,otros,1.7,URL no encontrada
+01/12/2023 19:07,3112-013-376040,C/ TETUÁN S/N 23700 LINARES,POLVORON GRANEL,Panadería y pastelería,1.73,https://tienda.mercadona.es/product/85708/polvoron-almendra-muralla

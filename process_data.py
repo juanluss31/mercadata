@@ -1,17 +1,22 @@
 import os
+import time
 import pandas as pd
 import pdfplumber
 import re
 import streamlit as st
+import requests
+import json
 
 # Define paths and file names
 data_path = "data/pdfs"
 output_csv = "data/mercadata.csv"
 
-def categorize_item(item):
+def categorize_item_old(item):
     """Función para categorizar los ítems"""
     # Normalizamos el nombre del ítem
-    item = re.sub(r'[^a-zA-Z\s]', '', item).lower()
+    item = re.sub(r'[^a-zA-ZÀ-ÿ/\s]', '', item).lower()
+
+    print (item)
     
     # Diccionario de categorías por palabras clave
     categories = {
@@ -26,7 +31,7 @@ def categorize_item(item):
         "condimentos y salsas": ["ketchup", "azúcar", "harina", "sabor", "para freir"],
         "despensa": ["arroz", "macarrón", "mezcla de semillas", "harina", "pasta", "avena crunchy", "arroz largo"],
         "conservas": ["atún", "tomate triturado", "aceitunas", "pepinillo"],
-        "platos preparados": ["hummus", "preparado andaluz", "ensaladilla rusa"],
+        "pizzas y platos preparados": ["hummus", "preparado andaluz", "ensaladilla rusa", "rosca", "pizza"],
         "otros": ["huevos frescos", "estropajo", "toall.bebe", "dermo", "gamuza atrapapolvo", "rollo hogar doble", "lavavajillas", "colg. triple", "gel crema"]
     }
 
@@ -35,10 +40,53 @@ def categorize_item(item):
             return category
     return "otros"
 
+def categorize_item(item):
+    """Función para categorizar los ítems usando la API de Mercadona"""
+
+    apiURL = "https://7uzjkl1dj0-dsn.algolia.net/1/indexes/products_prod_4168_es/query"
+    headers = {
+        "x-algolia-application-id": "7UZJKL1DJ0",
+        "x-algolia-api-key": "9d8f2e39e90df472b4f2e559a116fe17",
+        "Content-Type": "application/json"
+    }
+
+    # Normalizamos el nombre del ítem
+    item = re.sub(r'[^a-zA-ZÀ-ÿ/\s]', '', item).lower()
+    
+    # Cuerpo de la petición
+    body = {
+        "params": f"query={item}"
+    }
+
+    banedwords = [
+        "bolsa plastico"
+    ]
+
+    if not any(keyword in item for keyword in banedwords):
+        # Hacer la petición POST
+        response = requests.post(apiURL, headers=headers, data=json.dumps(body))
+        response_json = response.json()
+        time.sleep(0.5)  # Esperar 0.5 segundos para no exceder el límite de peticiones
+
+        # Verificar si hay hits en la respuesta
+        if response_json.get("hits"):
+            # Ordenar los hits por score en orden descendente
+            hits = sorted(response_json["hits"], key=lambda x: x["score"], reverse=True)
+            
+            # Obtener la categoría del hit con mayor score
+            top_hit = hits[0]
+            if top_hit.get("categories"):
+                top_category = top_hit["categories"][0]["name"]
+                share_url = top_hit.get("share_url","URL no encontrada")
+                return top_category, share_url
+    
+    # Si no hay hits o no se encuentra la categoría, retornar "otros"
+    return categorize_item_old(item)
+
 def extract_location(text):
     """Función para extraer la ubicación de la tienda del ticket."""
     location_match = re.search(r"MERCADONA,\s+S\.A\.\s+[^\n]*\n(.*?)(?=TELÉFONO:)", text, re.DOTALL)
-    return location_match.group(1).strip() if location_match else "Ubicación no encontrada"
+    return location_match.group(1).strip().replace("\n", " ") if location_match else "Ubicación no encontrada"
 
 def process_pdfs(uploaded_files):
     data = []
@@ -74,7 +122,7 @@ def process_pdfs(uploaded_files):
 
                 # Extraer ítems y precios utilizando un patrón más flexible
                 # Patrón mejorado para capturar ítems con múltiples palabras y precios
-                item_pattern = r"(\d+)\s+([A-ZÀ-ÿ0-9\s/.%-]+?)\s+(\d+,\d{2})\s*(\d+,\d{2})?"
+                item_pattern = r"(\d+)\s+([A-ZÀ-ÿ0-9\s/.%-]+?)\s+([0-9\s/,kg€]+?)?\s*(\d+,\d{2})\n"
 
                 # Filtrar líneas no relacionadas con productos
                 patron_no_producto = re.compile(r"(TARJETA BANCARIA|TOTAL|SUBTOTAL|CREDITO)", re.IGNORECASE)
@@ -90,18 +138,18 @@ def process_pdfs(uploaded_files):
                 for match in items:
                     cantidad = int(match[0])
                     item = match[1].strip()
-                    precio_unitario = match[2]
+                    precio_unitario = match[3]
                     # precio_total = match[3] if match[3] else precio_unitario  # Si no hay precio total, es igual al unitario
-                    precio = round(float(precio_unitario.replace(",", ".")), 2)
-                    categoria = categorize_item(item)
+                    precio = round((float(precio_unitario.replace(",", "."))/cantidad), 2)
+                    categoria, url = categorize_item(item)
                     for _ in range(cantidad):
-                        data.append([fecha, identificativo, location, item, categoria, precio])
+                        data.append([fecha, identificativo, location, item, categoria, precio, url])
             else:
                 print(f"No se pudo extraer texto del archivo: {uploaded_file.name}")
 
     if data:
         # Crear un DataFrame y guardarlo localmente como CSV
-        df = pd.DataFrame(data, columns=["fecha", "identificativo de ticket", "ubicación", "item", "categoría", "precio"])
+        df = pd.DataFrame(data, columns=["fecha", "identificativo de ticket", "ubicación", "item", "categoría", "precio", "url"])
         df.to_csv(output_csv, index=False)
         st.success(f"Archivo CSV generado con éxito: {output_csv}")
 

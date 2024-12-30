@@ -114,7 +114,7 @@ if os.path.exists(csv_path):
             with col1:
                 # Distribución del Gasto por Categoría
                 total_price_per_category = data.groupby("categoría")["precio"].sum().reset_index()
-                fig_pie = px.pie(total_price_per_category, values='precio', names='categoría', title='Distribución del Gasto por Categoría')
+                fig_pie = px.pie(total_price_per_category, values='precio', names='categoría', title='Distribución del Gasto por Categoría', labels={'precio': 'Gasto total (€)', 'categoría': 'Categoría'})
                 st.plotly_chart(fig_pie)
 
             with col2:
@@ -139,8 +139,8 @@ if os.path.exists(csv_path):
                 st.plotly_chart(fig_line)
 
             with col2:
-                # Top 10 Items con Mayor Gasto
-                top_items = data.groupby('item')['precio'].sum().nlargest(10).reset_index()
+                # Top 25 Items con Mayor Gasto
+                top_items = data.groupby('item')['precio'].sum().nlargest(25).reset_index()
                 fig_top_items = px.bar(top_items, x='item', y='precio', labels={'item': 'Item', 'precio': 'Gasto (€)'})
                 st.plotly_chart(fig_top_items)
 
