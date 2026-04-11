@@ -17,10 +17,8 @@
       ]
     }
   },
-  "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt; pip3 install --user streamlit; echo '✅ Packages installed and Requirements met'",
-  "postAttachCommand": {
-    "server": "streamlit run main.py --server.enableCORS false --server.enableXsrfProtection false"
-  },
+  "updateContentCommand": "if [ -f packages.txt ]; then sudo apt update && sudo xargs -a packages.txt apt install -y; fi; if [ -f requirements.txt ]; then pip3 install --user -r requirements.txt; fi; echo 'Packages installed and requirements ready'",
+  "postAttachCommand": "bash -lc 'cd /workspaces/mercadata && if ! lsof -iTCP:8501 -sTCP:LISTEN -t >/dev/null; then nohup python3 -m streamlit run main.py --server.enableCORS false --server.enableXsrfProtection false >/tmp/streamlit.log 2>&1 & fi'",
   "portsAttributes": {
     "8501": {
       "label": "Application",
