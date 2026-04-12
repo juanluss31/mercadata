@@ -1,11 +1,13 @@
 import os
 import time
+import io
 import pandas as pd
 import pdfplumber
 import re
 import streamlit as st
 import requests
 import json
+from typing import Callable
 
 # Define paths and file names
 data_path = "data/pdfs"
@@ -322,6 +324,14 @@ def _process_pdf_bytes_to_rows(pdf_bytes: "io.BytesIO", file_name: str) -> list:
     return data
 
 
+def _extract_ticket_id_from_text(text: str) -> str | None:
+    ticket_match = re.search(r"FACTURA SIMPLIFICADA:\s+([0-9\-]+)", text)
+    if not ticket_match:
+        return None
+    ticket_id = ticket_match.group(1).strip().lower()
+    return ticket_id or None
+
+
 def get_google_drive_service():
     """Devuelve un cliente autenticado de Google Drive."""
     import io as _io
@@ -362,16 +372,114 @@ def download_pdf_from_drive(file_id: str) -> "io.BytesIO":
     return buf
 
 
-def process_pdfs_from_drive(new_files: list) -> "pd.DataFrame":
-    """Procesa una lista de (file_id, file_name) desde Drive y devuelve un DataFrame."""
+def process_pdfs_from_drive(
+    new_files: list,
+    existing_ticket_ids: set | None = None,
+    progress_callback: Callable[[dict], None] | None = None,
+    return_stats: bool = False,
+) -> "pd.DataFrame | tuple[pd.DataFrame, dict]":
+    """Procesa PDFs desde Drive.
+
+    Si return_stats=True, devuelve (dataframe, stats).
+    """
     all_rows = []
-    for file_id, file_name in new_files:
-        buf = download_pdf_from_drive(file_id)
+    total_files = len(new_files)
+    stats = {
+        "total_files": total_files,
+        "processed_files": 0,
+        "skipped_duplicates": 0,
+        "failed_files": 0,
+    }
+    normalized_existing_ids = {
+        str(ticket_id).strip().lower()
+        for ticket_id in (existing_ticket_ids or set())
+        if str(ticket_id).strip()
+    }
+
+    for index, (file_id, file_name) in enumerate(new_files, start=1):
+        if progress_callback:
+            progress_callback({
+                "index": index,
+                "total": total_files,
+                "file_name": file_name,
+                "ticket_id": None,
+                "status": "downloading",
+            })
+
+        try:
+            buf = download_pdf_from_drive(file_id)
+            with pdfplumber.open(buf) as pdf:
+                first_page = pdf.pages[0] if pdf.pages else None
+                text = first_page.extract_text() if first_page else None
+        except Exception:
+            stats["failed_files"] += 1
+            if progress_callback:
+                progress_callback({
+                    "index": index,
+                    "total": total_files,
+                    "file_name": file_name,
+                    "ticket_id": None,
+                    "status": "failed",
+                })
+            continue
+
+        if not text:
+            stats["failed_files"] += 1
+            if progress_callback:
+                progress_callback({
+                    "index": index,
+                    "total": total_files,
+                    "file_name": file_name,
+                    "ticket_id": None,
+                    "status": "failed",
+                })
+            continue
+
+        ticket_id = _extract_ticket_id_from_text(text)
+        if ticket_id and ticket_id in normalized_existing_ids:
+            stats["skipped_duplicates"] += 1
+            if progress_callback:
+                progress_callback({
+                    "index": index,
+                    "total": total_files,
+                    "file_name": file_name,
+                    "ticket_id": ticket_id,
+                    "status": "skipped",
+                })
+            continue
+
+        buf.seek(0)
         rows = _process_pdf_bytes_to_rows(buf, file_name)
         all_rows.extend(rows)
+        if rows:
+            stats["processed_files"] += 1
+            if progress_callback:
+                progress_callback({
+                    "index": index,
+                    "total": total_files,
+                    "file_name": file_name,
+                    "ticket_id": ticket_id,
+                    "status": "processed",
+                })
+        else:
+            stats["failed_files"] += 1
+            if progress_callback:
+                progress_callback({
+                    "index": index,
+                    "total": total_files,
+                    "file_name": file_name,
+                    "ticket_id": ticket_id,
+                    "status": "failed",
+                })
+
     if all_rows:
-        return pd.DataFrame(all_rows, columns=OUTPUT_COLUMNS)
-    return pd.DataFrame(columns=OUTPUT_COLUMNS)
+        result_df = pd.DataFrame(all_rows, columns=OUTPUT_COLUMNS)
+    else:
+        result_df = pd.DataFrame(columns=OUTPUT_COLUMNS)
+
+    if return_stats:
+        return result_df, stats
+    return result_df
 
 
 def main():

@@ -324,15 +324,44 @@ if st.button("🔄 Importar tickets nuevos desde Gmail/Drive"):
         # list_new_pdfs_from_drive trabaja con IDs de archivo de Drive, no IDs de ticket.
         new_files = list_new_pdfs_from_drive(set())
         if new_files:
-            with st.spinner(f"Procesando {len(new_files)} ticket(s)..."):
-                df_new = process_pdfs_from_drive(new_files)
-            if not df_new.empty:
-                try:
-                    df_existing = load_data()
-                except Exception:
-                    df_existing = pd.DataFrame(columns=df_new.columns)
+            try:
+                df_existing = load_data()
+            except Exception:
+                df_existing = pd.DataFrame()
+            existing_ticket_ids = get_existing_ticket_ids(df_existing)
 
-                existing_ticket_ids = get_existing_ticket_ids(df_existing)
+            progress_bar = st.progress(0)
+            progress_text = st.empty()
+
+            def _render_drive_progress(event: dict) -> None:
+                index = event.get("index", 0)
+                total = event.get("total", 0)
+                status = event.get("status", "")
+                ticket_id = event.get("ticket_id")
+                file_name = event.get("file_name", "")
+
+                if total > 0:
+                    progress_bar.progress(min(index / total, 1.0))
+
+                status_label = {
+                    "downloading": "descargando",
+                    "processed": "procesado",
+                    "skipped": "omitido (duplicado)",
+                    "failed": "sin datos/error",
+                }.get(status, status)
+
+                ticket_label = ticket_id or file_name
+                progress_text.info(f"Procesando ticket {index}/{total}: {ticket_label} - {status_label}")
+
+            df_new, import_stats = process_pdfs_from_drive(
+                new_files,
+                existing_ticket_ids=existing_ticket_ids,
+                progress_callback=_render_drive_progress,
+                return_stats=True,
+            )
+
+            progress_bar.progress(1.0)
+            if not df_new.empty:
                 df_to_append = get_new_tickets_only(df_new, existing_ticket_ids)
                 if not df_to_append.empty:
                     append_to_sheet(df_to_append)
@@ -341,10 +370,25 @@ if st.button("🔄 Importar tickets nuevos desde Gmail/Drive"):
                         f"Importación completada: {df_to_append['identificativo de ticket'].nunique()} ticket(s) nuevo(s), "
                         f"{len(df_to_append)} fila(s) añadida(s)."
                     )
+                    st.caption(
+                        f"Procesados: {import_stats['processed_files']} | "
+                        f"Omitidos por duplicado: {import_stats['skipped_duplicates']} | "
+                        f"Sin datos/error: {import_stats['failed_files']}"
+                    )
                 else:
-                    st.info("Los tickets ya estaban importados. No se añadieron duplicados.")
+                    st.info("Los tickets ya estaban importados o no contenían datos válidos. No se añadieron duplicados.")
+                    st.caption(
+                        f"Procesados: {import_stats['processed_files']} | "
+                        f"Omitidos por duplicado: {import_stats['skipped_duplicates']} | "
+                        f"Sin datos/error: {import_stats['failed_files']}"
+                    )
             else:
                 st.warning("No se pudieron extraer datos de los PDFs descargados.")
+                st.caption(
+                    f"Procesados: {import_stats['processed_files']} | "
+                    f"Omitidos por duplicado: {import_stats['skipped_duplicates']} | "
+                    f"Sin datos/error: {import_stats['failed_files']}"
+                )
         else:
             st.info("No hay tickets nuevos en Drive.")
     except Exception as e:
