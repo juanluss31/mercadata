@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import gspread
 from gspread.exceptions import APIError
 from google.oauth2 import service_account
-from process_data import process_pdfs, list_new_pdfs_from_drive, process_pdfs_from_drive
+from process_data import process_pdfs, list_new_pdfs_from_drive, process_pdfs_from_drive, fetch_current_price
 
 REQUIRED_COLUMNS = {
     "fecha",
@@ -169,6 +169,9 @@ def build_ticket_display(ticket_rows: pd.DataFrame) -> pd.DataFrame:
         )
         columns.append("precio_por_kg")
 
+    display["url"] = display["url"].apply(
+        lambda u: None if (pd.isna(u) or str(u).strip().lower() in ("url no encontrada", "")) else str(u).strip()
+    )
     columns.extend(["precio", "url"])
     return display[columns].sort_values("categoría")
 
@@ -209,6 +212,71 @@ def append_to_sheet(df_new: pd.DataFrame):
         ) from exc
     except APIError as exc:
         raise RuntimeError(f"Error de API al escribir en Sheets: {exc}") from exc
+
+
+def update_url_in_sheet(ticket_id: str, item_name: str, new_url: str) -> None:
+    """Actualiza la celda 'url' de la primera fila que coincida con ticket_id + item_name."""
+    gc = get_gsheets_client()
+    sh = gc.open_by_key(st.secrets["google"]["spreadsheet_id"])
+    ws = sh.sheet1
+    all_values = ws.get_all_values()
+    if not all_values:
+        raise RuntimeError("La hoja está vacía.")
+
+    header = [h.strip().lower() for h in all_values[0]]
+    try:
+        url_col = header.index("url")
+        ticket_col = header.index("identificativo de ticket")
+        item_col = header.index("item")
+    except ValueError as exc:
+        raise RuntimeError(f"Columna no encontrada en la hoja: {exc}") from exc
+
+    for i, row in enumerate(all_values[1:], start=2):  # 1-based for gspread, row 1 = header
+        row_ticket = row[ticket_col].strip().lower() if len(row) > ticket_col else ""
+        row_item = row[item_col].strip().lower() if len(row) > item_col else ""
+        if row_ticket == ticket_id.strip().lower() and row_item == item_name.strip().lower():
+            ws.update_cell(i, url_col + 1, new_url)
+            st.cache_data.clear()
+            return
+
+    raise RuntimeError(
+        f"No se encontró ninguna fila con ticket '{ticket_id}' e ítem '{item_name}'."
+    )
+
+
+def _render_url_edit_form(ticket_rows: pd.DataFrame, ticket_id: str) -> None:
+    """Muestra un expander para corregir manualmente la URL de un producto concreto del ticket."""
+    with st.expander("✏️ Corregir URL de un producto"):
+        items_in_ticket = ticket_rows["item"].dropna().unique().tolist()
+        if not items_in_ticket:
+            st.caption("No hay artículos en este ticket.")
+            return
+
+        selected_item_edit = st.selectbox(
+            "Selecciona el artículo",
+            items_in_ticket,
+            key=f"url_edit_item_{ticket_id}",
+        )
+        current_url = ticket_rows.loc[ticket_rows["item"] == selected_item_edit, "url"].iloc[0]
+        if pd.isna(current_url) or str(current_url).strip().lower() in ("url no encontrada", ""):
+            current_url = ""
+
+        new_url = st.text_input(
+            "Nueva URL (tienda.mercadona.es)",
+            value=str(current_url),
+            key=f"url_edit_input_{ticket_id}_{selected_item_edit}",
+        )
+
+        if st.button("Guardar URL", key=f"url_edit_save_{ticket_id}_{selected_item_edit}"):
+            new_url = new_url.strip()
+            if new_url and not new_url.startswith("https://"):
+                st.warning("La URL debe comenzar con https://")
+            else:
+                try:
+                    update_url_in_sheet(ticket_id, selected_item_edit, new_url or "URL no encontrada")
+                    st.success(f"URL actualizada para «{selected_item_edit}».")
+                except Exception as e:
+                    st.error(f"Error al actualizar: {e}")
 
 
 def get_existing_ticket_ids(df_existing: pd.DataFrame) -> set:
@@ -516,6 +584,27 @@ elif selected_view == "🔍 Búsqueda de productos":
                     with col3:
                         st.metric("Rango de precio", f"€{min_price:.2f} – €{max_price:.2f}")
 
+                    # Botón "Ver en Mercadona" + precio actual
+                    latest_url = item_data.iloc[-1].get("url", None)
+                    url_valid = latest_url and str(latest_url).strip().lower() not in ("url no encontrada", "", "nan", "none")
+                    col_url1, col_url2 = st.columns([1, 2])
+                    with col_url1:
+                        if url_valid:
+                            st.link_button("🛒 Ver en Mercadona", str(latest_url).strip())
+                    with col_url2:
+                        with st.spinner("Consultando precio actual en tienda…"):
+                            current_price = fetch_current_price(selected_item)
+                        if current_price is not None:
+                            delta = round(current_price - avg_price, 2)
+                            st.metric(
+                                "Precio actual en tienda",
+                                f"€{current_price:.2f}",
+                                delta=f"€{delta:+.2f} vs media histórica",
+                                delta_color="inverse",
+                            )
+                        else:
+                            st.caption("No se pudo obtener el precio actual en tienda.")
+
                     # Gráfico de evolución del precio
                     fig_price = px.scatter(
                         item_data,
@@ -558,7 +647,12 @@ elif selected_view == "🔍 Búsqueda de productos":
 
                         col_t1, col_t2 = st.columns([3, 1])
                         with col_t1:
-                            st.dataframe(ticket_display, use_container_width=True, hide_index=True)
+                            st.dataframe(
+                                ticket_display,
+                                use_container_width=True,
+                                hide_index=True,
+                                column_config={"url": st.column_config.LinkColumn("Enlace")},
+                            )
                         with col_t2:
                             st.metric("Total del ticket", f"€{ticket_total:.2f}")
                             st.metric(
@@ -566,6 +660,7 @@ elif selected_view == "🔍 Búsqueda de productos":
                                 ticket_rows["fecha"].iloc[0].strftime("%d/%m/%Y"),
                             )
                             st.write(f"**Tienda:** {ticket_rows['ubicación'].iloc[0]}")
+                        _render_url_edit_form(ticket_rows, selected_ticket_id)
             else:
                 st.info("Escribe el nombre de un producto para buscar su historial de compras.")
     except Exception as e:
@@ -654,10 +749,16 @@ elif selected_view == "🧾 Consulta de tickets":
                     st.subheader(f"🧾 {ticket_labels[selected_ticket_id]}")
                     col_t1, col_t2 = st.columns([3, 1])
                     with col_t1:
-                        st.dataframe(ticket_display, use_container_width=True, hide_index=True)
+                        st.dataframe(
+                            ticket_display,
+                            use_container_width=True,
+                            hide_index=True,
+                            column_config={"url": st.column_config.LinkColumn("Enlace")},
+                        )
                     with col_t2:
                         st.metric("Total", f"€{ticket_total:.2f}")
                         st.metric("Artículos", len(ticket_rows))
                         st.write(f"**Tienda:** {ticket_rows['ubicación'].iloc[0]}")
+                    _render_url_edit_form(ticket_rows, selected_ticket_id)
     except Exception as e:
         st.error(f"Error al cargar datos: {e}")

@@ -1,9 +1,9 @@
 streamlit==1.28.1
+protobuf==4.25.9
 pandas==1.5.3
 plotly==5.23.0
 numpy==1.26.1
-pdfplumber==0.11.2
-st-gsheets-connection
-google-auth==2.29.0
-google-api-python-client==2.126.0
-gspread==6.1.2
+pdfplumber==0.11.9
+google-auth==2.49.2
+google-api-python-client==2.194.0
+gspread==6.2.1

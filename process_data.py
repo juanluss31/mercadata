@@ -66,15 +66,46 @@ def categorize_item_old(item):
             return category, "URL no encontrada"
     return "otros", "URL no encontrada"
 
+
+_ALGOLIA_URL = "https://7uzjkl1dj0-dsn.algolia.net/1/indexes/products_prod_4168_es/query"
+_ALGOLIA_HEADERS = {
+    "x-algolia-application-id": "7UZJKL1DJ0",
+    "x-algolia-api-key": "9d8f2e39e90df472b4f2e559a116fe17",
+    "Content-Type": "application/json",
+}
+
+
+def fetch_current_price(item_name: str) -> float | None:
+    """Consulta el precio vigente de un producto en tienda.mercadona.es via Algolia.
+
+    Devuelve el precio unitario como float, o None si no se puede obtener.
+    """
+    query = re.sub(r'[^a-zA-ZÀ-ÿ/\s]', '', item_name).lower().strip()
+    if not query:
+        return None
+    try:
+        response = requests.post(
+            _ALGOLIA_URL,
+            headers=_ALGOLIA_HEADERS,
+            data=json.dumps({"params": f"query={query}"}),
+            timeout=10,
+        )
+        response.raise_for_status()
+        hits = response.json().get("hits", [])
+        if not hits:
+            return None
+        top_hit = sorted(hits, key=lambda x: x.get("score", 0), reverse=True)[0]
+        price_instructions = top_hit.get("price_instructions") or {}
+        unit_price = price_instructions.get("unit_price")
+        if unit_price is not None:
+            return float(unit_price)
+    except (requests.RequestException, ValueError, KeyError):
+        pass
+    return None
+
+
 def categorize_item(item):
     """Función para categorizar los ítems usando la API de Mercadona"""
-
-    apiURL = "https://7uzjkl1dj0-dsn.algolia.net/1/indexes/products_prod_4168_es/query"
-    headers = {
-        "x-algolia-application-id": "7UZJKL1DJ0",
-        "x-algolia-api-key": "9d8f2e39e90df472b4f2e559a116fe17",
-        "Content-Type": "application/json"
-    }
 
     # Normalizamos el nombre del ítem
     item = re.sub(r'[^a-zA-ZÀ-ÿ/\s]', '', item).lower()
@@ -90,8 +121,9 @@ def categorize_item(item):
 
     if not any(keyword in item for keyword in banedwords):
         try:
+            response = requests.post(_ALGOLIA_URL, headers=_ALGOLIA_HEADERS, data=json.dumps(body), timeout=10)
             # Hacer la petición POST
-            response = requests.post(apiURL, headers=headers, data=json.dumps(body), timeout=10)
+            response = requests.post(_ALGOLIA_URL, headers=_ALGOLIA_HEADERS, data=json.dumps(body), timeout=10)
             response.raise_for_status()
             response_json = response.json()
             time.sleep(0.5)  # Esperar 0.5 segundos para no exceder el límite de peticiones
